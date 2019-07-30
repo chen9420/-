@@ -1,0 +1,10 @@
+<!--pages/hehe/hehe.wxml-->
+<view class='box'bindlongpress='fn'>
+  <view class='box2' catchtap="fn2">
+
+  </view>
+</view>
+  <button
+  class='btn'
+  bindtap="click"
+  >按钮1</button>

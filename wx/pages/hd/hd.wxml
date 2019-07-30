@@ -1,0 +1,20 @@
+
+<checkbox checked="{{hd}}" bindtap="all"></checkbox>
+<text>全选</text>
+<view>
+<!-- <checkbox-group bindchange="checkboxChange"> -->
+  <view class="checkbox" wx:for="{{items}}" wx:key="{{id}}">
+    <checkbox 
+    value="{{item.name}}" 
+    checked="{{item.checked}}"
+    bindtap="click"
+    data-index='{{item.id}}'
+    />{{item.value}}
+  </view>
+<!-- </checkbox-group> -->
+</view>
+
+  <button
+   class='btn'
+  bindtap="click2"
+  >按钮2</button>

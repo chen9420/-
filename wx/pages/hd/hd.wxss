@@ -1,0 +1,8 @@
+/* pages/hd/hd.wxss */
+.btn{
+  width:30%;
+  background: skyblue;
+  color: #fff;
+  cursor: pointer;
+  margin-left:0; 
+}

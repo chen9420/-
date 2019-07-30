@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <text id='text'>{{num+1}}</text>
+  <text>{{n}}</text>
+  3546
+  <input class='input'
+   type='text' 
+   placeholder="请输入"
+   bindinput="change"
+   >
+ 
+  </input>
+  <button bindtap="getval" > 按钮</button>
+  <button class='btn' bindtap="click" >跳转</button>
+</view>
